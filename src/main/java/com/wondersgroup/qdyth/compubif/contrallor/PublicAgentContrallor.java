@@ -59,6 +59,7 @@ public class PublicAgentContrallor {
 			 * 业务操作
 			 */
 			outvo=this.publicAgentService.execProcess(vo, request);
+
 		} catch (Exception e) {
 			if(e instanceof BusinessException){
 				outvo.setRetCode("-1");
