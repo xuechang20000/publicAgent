@@ -1,0 +1,16 @@
+[INFO] [2017-08-04 16:05:32][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'spring': initialization started
+[INFO] [2017-08-04 16:05:32][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Fri Aug 04 16:05:32 CST 2017]; root of context hierarchy
+[INFO] [2017-08-04 16:05:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationServlet.xml]
+[INFO] [2017-08-04 16:05:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-08-04 16:05:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/]}" onto public java.lang.String com.wondersgroup.qdyth.compubif.contrallor.PublicAgentContrallor.compubif(com.wondersgroup.qdyth.compubif.vo.ParamInVO)
+[INFO] [2017-08-04 16:05:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Fri Aug 04 16:05:32 CST 2017]; root of context hierarchy
+[INFO] [2017-08-04 16:05:34][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Fri Aug 04 16:05:32 CST 2017]; root of context hierarchy
+[INFO] [2017-08-04 16:05:34][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'spring': initialization completed in 1821 ms
+[INFO] [2017-08-04 16:06:28][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'spring': initialization started
+[INFO] [2017-08-04 16:06:28][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Fri Aug 04 16:06:28 CST 2017]; root of context hierarchy
+[INFO] [2017-08-04 16:06:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationServlet.xml]
+[INFO] [2017-08-04 16:06:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-08-04 16:06:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/]}" onto public java.lang.String com.wondersgroup.qdyth.compubif.contrallor.PublicAgentContrallor.compubif(com.wondersgroup.qdyth.compubif.vo.ParamInVO)
+[INFO] [2017-08-04 16:06:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Fri Aug 04 16:06:28 CST 2017]; root of context hierarchy
+[INFO] [2017-08-04 16:06:29][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Fri Aug 04 16:06:28 CST 2017]; root of context hierarchy
+[INFO] [2017-08-04 16:06:30][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'spring': initialization completed in 1826 ms

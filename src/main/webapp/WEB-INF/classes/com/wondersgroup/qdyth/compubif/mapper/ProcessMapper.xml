@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wondersgroup.qdyth.compubif.mapper.ProcessMapper">
+
+  <select id="queryUser" parameterType="UaasUserVO"   resultType="UaasUserVO">
+   select a.*,b.USERKEY,b.GROUPID 
+   	from uaas_user@qdweb a,uaas_upda@qdweb b
+    WHERE a.ID=b.UERS_ID AND a.loginname=#{loginName} and a.password=#{password} 
+    and b.groupid=#{groupid} and a.status=1
+  </select>
+   <select id="callProcess" parameterType="java.util.Map" statementType="CALLABLE">
+   call SPK_PUBLIC_AGENT.SP_PUBLICAGENT_MAIN(#{pi_dataid,mode=IN,jdbcType=VARCHAR},#{po_retcode,mode=OUT,jdbcType=INTEGER},#{po_retmsg,mode=OUT,jdbcType=VARCHAR})
+  </select>
+</mapper>
